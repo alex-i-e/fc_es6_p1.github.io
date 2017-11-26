@@ -1,0 +1,27 @@
+{
+  "name": "fc_es6_p1.github.io",
+  "version": "1.0.0",
+  "description": "FontCamp ES6 part-1",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-i-e/fc_es6_p1.github.io.git"
+  },
+  "keywords": [
+    "es6",
+    "ecmaScript2015"
+  ],
+  "author": "Aleksandr Eremin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-i-e/fc_es6_p1.github.io/issues"
+  },
+  "homepage": "https://github.com/alex-i-e/fc_es6_p1.github.io#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
