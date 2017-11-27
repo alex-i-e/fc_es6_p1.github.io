@@ -4,8 +4,9 @@ export default class Templates {
         this.template = {
             settings: {
                 'category-selector': (catList = []) => {
-                    let htmlTemplate = ` 
-<select class="category-selector">
+                    let htmlTemplate = `
+<label for="category-selector">Choose category: </label>
+<select id="category-selector" class="category-selector">
     <option class="selector-option" value="">All categories</option>`;
 
                     catList.forEach((item) => {
@@ -45,30 +46,32 @@ export default class Templates {
                     return `<button>${btnName}</button>`;
                 },
                 sourceList: {
-                    checkbox: '',
-                    article: ''
+                    checkbox: (cbName) => {
+                        let htmlTemplate = ` 
+<input type="checkbox">${cbName}</input>`;
+                    }
+                }
+            },
+            articles: {
+                itemList: (articleObject) => {
+                    let htmlTemplate = `
+<a href="${articleObject.url}" 
+   style="background-image: url(\"${articleObject.urlToImage}\"); width=100px;height=100px;" >
+${articleObject.title}</a>`;
+
+
+
+                    return htmlTemplate;
+                },
+                itemDescription: () => {
+
                 }
             }
-        };
+        }
+        ;
     }
 
     init () {
-        // document. // TODO : add Button
-        /**  Choose options and press Button
-         * 1. => view all list (by default 10 items + checkbox [show ALl])
-         * After Press Button => filter by category
-         * view sources with checkbox [off]
-         *
-         * 2. After checked => show everything info for right - side
-         * with pics + urls <a href + background>
-         *
-         * 3. After Click => Show Description on Bottom Container
-         *
-         * 4. Mobile responsive
-         *
-         * 5. ES6 futures
-         *
-         * */
     }
 
     addButton (parentElem, btnName, onClickBtn) {
@@ -89,6 +92,32 @@ export default class Templates {
         catDom.onclick = onClickHandler;
 
         parentElem.append(catDom);
+    }
+
+    addCheckbox (parentElem, cbObject, onClickHandler) {
+        let cbHtml = this.template.settings.sourceList.checkbox(cbObject);
+        let cbDom = document.createElement('div');
+        cbDom.innerHTML = cbHtml;
+
+        cbDom.onclick = onClickHandler;
+
+        parentElem.append(cbDom);
+    }
+
+    addArticle(parentElem, articleObject, onClickHandler) {
+        let aHtml = this.template.articles.itemList(articleObject);
+        let aDom = document.createElement('div');
+        aDom.innerHTML = aHtml;
+
+        aDom.onclick = onClickHandler;
+
+        parentElem.append(aDom);
+    }
+
+    cleanParentDomList (parentDom) {
+        while (parentDom.firstChild) {
+            parentDom.removeChild(parentDom.firstChild);
+        }
     }
 
     getSelectorValue (selectName) {

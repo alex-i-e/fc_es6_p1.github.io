@@ -7,6 +7,8 @@ export default class NewsApi {
             source: 'sources',
         };
 
+        this.currentNews = [];
+
         this.apiKey = '51567f5e32f747b48f1ec3620f0c1f0a';
 
         this.category = [ // Default: all categories returned
@@ -175,20 +177,48 @@ export default class NewsApi {
     }
 
     getSources (prop = {}) {
-        // ?    q=bitcoin+apple&page=3&apiKey=51567f5e32f747b48f1ec3620f0c1f0a
         let url = `${this.baseUrl}${this.apiType.source}?${this.apiKeyAttr}`;
 
-        /*Object.keys(prop).forEach((item) => {
-         switch (item) {
-         case '':
-         break;
-         default:
-         }
-         });*/
+        Object.keys(prop).forEach((item) => {
+            let cat = 'category=';
+            switch (item) {
+                case 'category':
+                    cat += prop[item];
+                    break;
+                default:
+            }
 
+            url += `&${cat}`;
+        });
 
-        return fetch(`${this.baseUrl}${this.apiType.source}?${this.apiKeyAttr}`, this.apiOptions)
-            .then(data => data.json());
+        return fetch( url, this.apiOptions)
+            .then(data => data.json())
+            .then(data => {
+                return data.status === 'ok' ? data.sources : [];
+            });
+    }
+
+    getTopHeadlines (prop = {}) {
+        let url = `${this.baseUrl}${this.apiType.top}?${this.apiKeyAttr}`;
+
+        Object.keys(prop).forEach((item) => {
+            let cat = 'sources=';
+            switch (item) {
+                case 'sources':
+                    cat += Object.keys(prop[item]).join(',');
+                    break;
+                default:
+            }
+
+            url += `&${cat}`;
+        });
+
+        return fetch( url, this.apiOptions)
+            .then(data => data.json())
+            .then(data => {
+                this.currentNews = data.articles || [];
+                return data.status === 'ok' ? data.articles : [];
+            });
     }
 
     get apiKeyAttr () {

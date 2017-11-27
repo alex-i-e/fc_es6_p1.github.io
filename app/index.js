@@ -180,14 +180,13 @@ class NewsApi {
     }
 
     getSources (prop = {}) {
-        // ?    q=bitcoin+apple&page=3&apiKey=51567f5e32f747b48f1ec3620f0c1f0a
         let url = `${this.baseUrl}${this.apiType.source}?${this.apiKeyAttr}`;
 
         Object.keys(prop).forEach((item) => {
             let cat = 'category=';
             switch (item) {
                 case 'category':
-                    cat += prop.item;
+                    cat += prop[item];
                     break;
                 default:
             }
@@ -195,11 +194,33 @@ class NewsApi {
             url += `&${cat}`;
         });
 
-
-        return fetch(`${this.baseUrl}${this.apiType.source}?${this.apiKeyAttr}`, this.apiOptions)
+        return fetch( url, this.apiOptions)
             .then(data => data.json())
             .then(data => {
                 return data.status === 'ok' ? data.sources : [];
+            });
+    }
+
+    getTopHeadlines (prop = {}) {
+        let url = `${this.baseUrl}${this.apiType.top}?${this.apiKeyAttr}`;
+
+        Object.keys(prop).forEach((item) => {
+            let cat = 'sources=';
+            switch (item) {
+                case 'sources':
+                    cat += Object.keys(prop[item]).join(',');
+                    break;
+                default:
+            }
+
+            url += `&${cat}`;
+        });
+
+        return fetch( url, this.apiOptions)
+            .then(data => data.json())
+            .then(data => {
+                this.currentNews = data.articles || [];
+                return data.status === 'ok' ? data.articles : [];
             });
     }
 
@@ -215,7 +236,8 @@ class Templates {
             settings: {
                 'category-selector': (catList = []) => {
                     let htmlTemplate = ` 
-<select class="category-selector">
+<label for="category-selector" class="article-headlines">Choose category: </label>
+<select id="category-selector" class="category-selector">
     <option class="selector-option" value="">All categoties</option>`;
 
                     catList.forEach((item) => {
@@ -255,30 +277,34 @@ class Templates {
                     return `<button>${btnName}</button>`;
                 },
                 sourceList: {
-                    checkbox: '',
-                    article: ''
+                    checkbox: (cbObject) => {
+                        let htmlTemplate = ` 
+<input type="checkbox" id="${cbObject.id}" category="${cbObject.category}" />
+<label for="${cbObject.id}">${cbObject.name}</label>`;
+
+                        return htmlTemplate;
+                    }
+                }
+            },
+            articles: {
+                itemList: (articleObject) => {
+                    let htmlTemplate = `
+<a href="${articleObject.url}" class="article-item"
+   style="background-image: url(\'${articleObject.urlToImage}\'); " >
+${articleObject.title}</a>`;
+
+
+
+                    return htmlTemplate;
+                },
+                itemDescription: () => {
+
                 }
             }
         };
     }
 
     init () {
-        // document. // TODO : add Button
-        /**  Choose options and press Button
-         * 1. => view all list (by default 10 items + checkbox [show ALl])
-         * After Press Button => filter by category
-         * view sources with checkbox [off]
-         *
-         * 2. After checked => show everything info for right - side
-         * with pics + urls <a href + background>
-         *
-         * 3. After Click => Show Description on Bottom Container
-         *
-         * 4. Mobile responsive
-         *
-         * 5. ES6 futures
-         *
-         * */
     }
 
     addButton (parentElem, btnName, onClickBtn) {
@@ -297,9 +323,35 @@ class Templates {
         let catDom = document.createElement('div');
         catDom.innerHTML = catHtml;
 
-        catDom.onclick = onClickHandler;
+        catDom.onchange = onClickHandler;
 
         parentElem.append(catDom);
+    }
+
+    addCheckbox (parentElem, cbObject, onClickHandler) {
+        let cbHtml = this.template.settings.sourceList.checkbox(cbObject);
+        let cbDom = document.createElement('div');
+        cbDom.innerHTML = cbHtml;
+
+        cbDom.onclick = onClickHandler;
+
+        parentElem.append(cbDom);
+    }
+
+    addArticle(parentElem, articleObject, onClickHandler) {
+        let aHtml = this.template.articles.itemList(articleObject);
+        let aDom = document.createElement('div');
+        aDom.innerHTML = aHtml;
+
+        aDom.onclick = onClickHandler;
+
+        parentElem.append(aDom);
+    }
+
+    cleanParentDomList (parentDom) {
+        while (parentDom.firstChild) {
+            parentDom.removeChild(parentDom.firstChild);
+        }
     }
 
     getSelectorValue (selectName) {
@@ -309,18 +361,109 @@ class Templates {
     }
 }
 
+class DataStore {
+    constructor () {
+        this.categoty = '';
+        this.sourceList = [];
+        this.choosenSources = [];
+        this.choosenSourcesMap = {};
+        this.articleList = [];
+    }
+
+    get sources () {
+        return this.sourceList;
+    }
+    set sources (list) {
+        this.sourceList = list;
+    }
+
+    get currentSources () {
+        return this.choosenSources;
+    }
+    set currentSources (list) {
+        this.choosenSources = list;
+    }
+
+    get ctg () {
+        return this.categoty;
+    }
+    set ctg (newCtg) {
+        this.categoty = newCtg;
+    }
+
+    get articles () {
+        return this.articleList;
+    }
+    set articles (list) {
+        this.articleList = list;
+    }
+}
+
+class Behavior {
+    constructor (newsApi, templateApi, dataStore) {
+        this.newsApi = newsApi;
+        this.templateApi = templateApi;
+        this.dataStore = dataStore;
+    }
+
+    onInit() {
+        this.templateApi.addCategory(document.getElementsByClassName('settings')[0],
+            newsApi.category,
+            () => {
+                newsApi.getSources({
+                    category: templateApi.getSelectorValue('category')
+                }).then(data => {
+                    console.log('updated DATA:', data);
+
+                    this.dataStore.sources = data || [];
+
+                    this.initSources(this.dataStore.sources);
+                });
+            })
+    }
+
+    initSources (list) {
+        let parentDom = document.getElementsByClassName('source-list')[0];
+        let parentHeadlinesDom = document.getElementsByClassName('headlines-container')[0];
+        this.templateApi.cleanParentDomList(parentDom);
+
+        list.forEach((item) => {
+            this.templateApi.addCheckbox(parentDom,
+                item, (e) => {
+                    let checked = e.target.checked;
+                    let targetId = e.target.id || e.target.getAttribute('for');
+
+                    checked
+                        ? (this.dataStore.choosenSourcesMap[targetId] = targetId)
+                        : (delete this.dataStore.choosenSourcesMap[targetId]);
+
+                    this.templateApi.cleanParentDomList(parentHeadlinesDom);
+                    this.newsApi.getTopHeadlines({
+                        sources: this.dataStore.choosenSourcesMap
+                    }).then(data => {
+                        data.forEach((item) => {
+                            this.templateApi.addArticle(parentHeadlinesDom,
+                                item, () => {
+
+                                })
+                        })
+                    });
+                });
+
+        });
+    }
+
+    onChangeCategory () {
+
+    }
+    onChangeCurrentSourceList () {
+
+    }
+}
 ///////////////////////////////////
+let dataStore = new DataStore();
 let templateApi = new Templates();
 let newsApi = new NewsApi();
-newsApi.getSources()
-    .then(data => console.log(data));
-
+let behavior = new Behavior(newsApi, templateApi, dataStore);
 ////////////////////////////////////
-templateApi.addButton(document.getElementsByClassName('settings')[0], 'Update', );
-templateApi.addCategory(document.getElementsByClassName('settings')[0],
-    newsApi.category,
-    () => {
-        newsApi.getSources({
-            category: templateApi.getSelectorValue('category')
-        });
-    });
+behavior.onInit();

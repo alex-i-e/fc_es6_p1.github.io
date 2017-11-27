@@ -1,0 +1,38 @@
+.container {
+    box-shadow: black 2px 2px 4px;
+    margin: 5px;
+}
+.main-container {
+    flex-direction: row;
+    display: flex;
+}
+.top-container {
+    display: flex;
+    flex-direction: column;
+}
+.headlines-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-headlines {
+    margin: 5px;
+    font-style: oblique;
+    font-weight: 600;
+}
+.article-item {
+    margin: 5px;
+
+    box-shadow: black 2px 2px 2px;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    text-decoration: none;
+    display: inline-flex;
+    background-color: #ffffff;
+    color: floralwhite;
+}
+.article-item:hover {
+    box-shadow: blueviolet 2px 2px 2px;
+}
+
