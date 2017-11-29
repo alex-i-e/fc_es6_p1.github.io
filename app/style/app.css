@@ -2,9 +2,14 @@
     box-shadow: black 2px 2px 4px;
     margin: 5px;
 }
-.main-container {
-    flex-direction: row;
+.body-container {
+    flex-direction: column;
     display: flex;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .top-container {
     display: flex;

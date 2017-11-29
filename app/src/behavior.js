@@ -9,13 +9,12 @@ export default class Behavior {
         this.templateApi.addCategory(document.getElementsByClassName('settings')[0],
             this.newsApi.category,
             () => {
+                this.templateApi.cleanParentDomList(document.getElementsByClassName('headlines-container')[0]);
+
                 this.newsApi.getSources({
                     category: this.templateApi.getSelectorValue('category')
                 }).then(data => {
-                    console.log('updated DATA:', data);
-
                     this.dataStore.sources = data || [];
-
                     this.initSources(this.dataStore.sources);
                 });
             })
@@ -28,7 +27,8 @@ export default class Behavior {
 
         list.forEach((item) => {
             this.templateApi.addCheckbox(parentDom,
-                item, (e) => {
+                item,
+                (e) => {
                     const checked = e.target.checked;
                     const targetId = e.target.id || e.target.getAttribute('for');
 
@@ -41,10 +41,7 @@ export default class Behavior {
                         sources: this.dataStore.choosenSourcesMap
                     }).then(data => {
                         data.forEach((item) => {
-                            this.templateApi.addArticle(parentHeadlinesDom,
-                                item, () => {
-
-                                })
+                            this.templateApi.addArticle(parentHeadlinesDom, item, () => {})
                         })
                     });
                 });

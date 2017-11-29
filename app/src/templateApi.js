@@ -86,6 +86,7 @@ ${articleObject.title}</a>`;
         const catHtml = this.template.settings['category-selector'](list);
         const catDom = document.createElement('div');
         catDom.innerHTML = catHtml;
+        catDom.classList.add('article-headlines');
 
         catDom.onchange = onClickHandler;
 
