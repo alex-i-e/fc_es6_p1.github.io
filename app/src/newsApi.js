@@ -176,7 +176,7 @@ export default class NewsApi {
         };
     }
 
-    getSources (prop = {}) {
+    async getSources (prop = {}) {
         let url = `${this.baseUrl}${this.apiType.source}?${this.apiKeyAttr}`;
 
         Object.keys(prop).forEach((item) => {
@@ -191,14 +191,11 @@ export default class NewsApi {
             url += `&${cat}`;
         });
 
-        return fetch( url, this.apiOptions)
-            .then(data => data.json())
-            .then(data => {
-                return data.status === 'ok' ? data.sources : [];
-            });
+        const data = await fetch( url, this.apiOptions).then(data => data.json());
+        return data.status === 'ok' ? data.sources : [];
     }
 
-    getTopHeadlines (prop = {}) {
+    async getTopHeadlines (prop = {}) {
         let url = `${this.baseUrl}${this.apiType.top}?${this.apiKeyAttr}`;
 
         Object.keys(prop).forEach((item) => {
@@ -213,12 +210,9 @@ export default class NewsApi {
             url += `&${cat}`;
         });
 
-        return fetch( url, this.apiOptions)
-            .then(data => data.json())
-            .then(data => {
-                this.currentNews = data.articles || [];
-                return data.status === 'ok' ? data.articles : [];
-            });
+        const data = await fetch( url, this.apiOptions).then(data => data.json());
+        this.currentNews = data.articles || [];
+        return data.status === 'ok' ? data.articles : [];
     }
 
     get apiKeyAttr () {
