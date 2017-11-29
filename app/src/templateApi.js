@@ -4,10 +4,10 @@ export default class Templates {
         this.template = {
             settings: {
                 'category-selector': (catList = []) => {
-                    let htmlTemplate = `
-<label for="category-selector">Choose category: </label>
+                    let htmlTemplate = ` 
+<label for="category-selector" class="article-headlines">Choose category: </label>
 <select id="category-selector" class="category-selector">
-    <option class="selector-option" value="">All categories</option>`;
+    <option class="selector-option" value="">All categoties</option>`;
 
                     catList.forEach((item) => {
                         htmlTemplate += `<option class="selector-option" value="${item}">${item.toUpperCase()}</option> `;
@@ -27,8 +27,6 @@ export default class Templates {
                     htmlTemplate += `</select>`;
 
                     return htmlTemplate;
-
-                    return htmlTemplate;
                 },
                 'country-selector': (countryList = []) => {
                     let htmlTemplate = ` 
@@ -46,37 +44,36 @@ export default class Templates {
                     return `<button>${btnName}</button>`;
                 },
                 sourceList: {
-                    checkbox: (cbName) => {
-                        let htmlTemplate = ` 
-<input type="checkbox">${cbName}</input>`;
+                    checkbox: (cbObject) => {
+                        const htmlTemplate = ` 
+<input type="checkbox" id="${cbObject.id}" category="${cbObject.category}" />
+<label for="${cbObject.id}">${cbObject.name}</label>`;
+
+                        return htmlTemplate;
                     }
                 }
             },
             articles: {
                 itemList: (articleObject) => {
-                    let htmlTemplate = `
-<a href="${articleObject.url}" 
-   style="background-image: url(\"${articleObject.urlToImage}\"); width=100px;height=100px;" >
+                    const htmlTemplate = `
+<a href="${articleObject.url}" class="article-item"
+   style="background-image: url(\'${articleObject.urlToImage}\'); " >
 ${articleObject.title}</a>`;
 
 
 
                     return htmlTemplate;
                 },
-                itemDescription: () => {
-
-                }
+                itemDescription: () => {}
             }
-        }
-        ;
+        };
     }
 
-    init () {
-    }
+    init () {}
 
     addButton (parentElem, btnName, onClickBtn) {
-        let tempHtml = this.template.settings.button(btnName);
-        let tempDom = document.createElement('div');
+        const tempHtml = this.template.settings.button(btnName);
+        const tempDom = document.createElement('div');
         tempDom.innerHTML = tempHtml;
 
         tempDom.onclick = onClickBtn;
@@ -84,19 +81,20 @@ ${articleObject.title}</a>`;
         parentElem.append(tempDom);
     }
 
+
     addCategory (parentElem, list, onClickHandler) {
-        let catHtml = this.template.settings['category-selector'](list);
-        let catDom = document.createElement('div');
+        const catHtml = this.template.settings['category-selector'](list);
+        const catDom = document.createElement('div');
         catDom.innerHTML = catHtml;
 
-        catDom.onclick = onClickHandler;
+        catDom.onchange = onClickHandler;
 
         parentElem.append(catDom);
     }
 
     addCheckbox (parentElem, cbObject, onClickHandler) {
-        let cbHtml = this.template.settings.sourceList.checkbox(cbObject);
-        let cbDom = document.createElement('div');
+        const cbHtml = this.template.settings.sourceList.checkbox(cbObject);
+        const cbDom = document.createElement('div');
         cbDom.innerHTML = cbHtml;
 
         cbDom.onclick = onClickHandler;
@@ -105,8 +103,8 @@ ${articleObject.title}</a>`;
     }
 
     addArticle(parentElem, articleObject, onClickHandler) {
-        let aHtml = this.template.articles.itemList(articleObject);
-        let aDom = document.createElement('div');
+        const aHtml = this.template.articles.itemList(articleObject);
+        const aDom = document.createElement('div');
         aDom.innerHTML = aHtml;
 
         aDom.onclick = onClickHandler;
