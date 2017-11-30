@@ -4,6 +4,7 @@
   "description": "FontCamp ES6 part-1",
   "main": "index.js",
   "scripts": {
+    "start": "http-server",
     "build": "babel src -d lib"
   },
   "repository": {
