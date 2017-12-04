@@ -1,3 +1,7 @@
+// require("babel-polyfill");
+// import "babel-polyfill";
+// import "babel-polyfill/dist/polyfill.js";
+
 import DataStore from './src/dataStore.js';
 import Templates from './src/templateApi.js';
 import NewsApi from './src/newsApi.js';
