@@ -1,6 +1,7 @@
 # fc_es6_p1.github.io
 FrontCamp: ES6 [part1]
 
+[Part 1]
 1. npm install http-server -g
 
 2. npm i
