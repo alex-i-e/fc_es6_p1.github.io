@@ -1,6 +1,5 @@
-// require("babel-polyfill");
-// import "babel-polyfill";
-// import "babel-polyfill/dist/polyfill.js";
+import "babel-polyfill";
+import 'whatwg-fetch'
 
 import DataStore from './src/dataStore.js';
 import Templates from './src/templateApi.js';

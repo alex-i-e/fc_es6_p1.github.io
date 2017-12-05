@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d99edcd-49b8-4a99-a7f7-cb8566edbbc4" name="Default" comment="">
+    <list default="true" id="3d99edcd-49b8-4a99-a7f7-cb8566edbbc4" name="Default" comment="[fc_es6_p1]: [in process] =&gt; add babel + plugins">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers.js" afterPath="$PROJECT_DIR$/app/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.js" afterPath="$PROJECT_DIR$/app/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/init.js" afterPath="$PROJECT_DIR$/app/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/templateApi.js" afterPath="$PROJECT_DIR$/app/src/templateApi.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/app.css" afterPath="$PROJECT_DIR$/style/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,53 +20,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5759943">
+    <splitter split-orientation="horizontal" split-proportion="0.49911085">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/init.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="282">
-                  <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-                  <folding>
-                    <marker date="1511769720044" expanded="true" signature="50:248" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+                <state relative-caret-position="425">
+                  <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="445" column="45" lean-forward="true" selection-start-line="445" selection-start-column="45" selection-end-line="445" selection-end-column="45" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                    <element signature="n#NewsApi#0" expanded="false" />
-                    <element signature="n#!!block;n#apiKeyAttr#0;n#NewsApi#0" expanded="false" />
-                    <element signature="e#9996#10492#0" expanded="false" />
-                    <element signature="e#10551#11007#0" expanded="false" />
-                    <element signature="n#!!block;n#addCategory#0;n#Templates#0" expanded="false" />
-                    <element signature="n#!!block;n#addCheckbox#0;n#Templates#0" expanded="false" />
-                    <element signature="n#!!block;n#getSelectorValue#0;n#Templates#0" expanded="false" />
-                    <marker date="1511769720008" expanded="true" signature="9561:9630" ph="..." />
-                    <marker date="1511769720008" expanded="true" signature="10073:10141" ph="..." />
-                    <marker date="1511769720008" expanded="true" signature="10627:10695" ph="..." />
-                    <marker date="1511769720008" expanded="true" signature="11644:11740" ph="..." />
-                    <marker date="1511769720008" expanded="true" signature="11655:11711" ph="..." />
-                  </folding>
+                <state relative-caret-position="17">
+                  <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -73,44 +47,29 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/init.js">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3101">
-                  <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#!!block;n#apiKeyAttr#0;n#NewsApi#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="helpers.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/helpers.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#751#1247#0" expanded="false" />
-                    <element signature="e#1307#1763#0" expanded="false" />
-                    <element signature="n#!!block;n#getSelectorValue#0;n#Templates#0;n#!!top" expanded="false" />
-                    <marker date="1511769719989" expanded="true" signature="316:385" ph="..." />
-                    <marker date="1511769719989" expanded="true" signature="828:896" ph="..." />
-                    <marker date="1511769719989" expanded="true" signature="1383:1451" ph="..." />
-                    <marker date="1511769719989" expanded="true" signature="2241:2277" ph="..." />
-                    <marker date="1511769719989" expanded="true" signature="2253:2275" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/style/app.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="18" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="templateApi.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/templateApi.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="97" column="52" lean-forward="false" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+                  <folding>
+                    <marker date="1512490317145" expanded="true" signature="343:412" ph="..." />
+                    <marker date="1512490317145" expanded="true" signature="855:923" ph="..." />
+                    <marker date="1512490317145" expanded="true" signature="1368:1436" ph="..." />
+                    <marker date="1512490317145" expanded="true" signature="2389:2485" ph="..." />
+                    <marker date="1512490317145" expanded="true" signature="2400:2456" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -129,15 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
-      <find>select</find>
-      <find>category</find>
-      <find>category=business</find>
-      <find>DataStore</find>
-      <find>sources</find>
-      <find>choosenSources</find>
-      <find>currentNews</find>
-      <find>addCheckbox</find>
       <find>cleanCheckboxList</find>
       <find>c</find>
       <find>coose</find>
@@ -150,11 +100,34 @@
       <find>//</find>
       <find>T</find>
       <find>TODO</find>
+      <find>newsApi.</find>
+      <find>templateApi</find>
+      <find>dataStore</find>
+      <find>let</find>
+      <find>'category-selector'</find>
+      <find>fetch</find>
+      <find>settings</find>
+      <find>addCategory</find>
+      <find>source-list</find>
+      <find>.then</find>
+      <find>choosenSourcesMap</find>
+      <find>ecmaScript2015</find>
+      <find>_interopRequireDefault</find>
+      <find>define</find>
+      <find>_createClass2</find>
+      <find>build</find>
+      <find>append</find>
+      <find>Object.defineProperty(exports, &quot;__esModule&quot;,</find>
     </findStrings>
     <replaceStrings>
       <replace>', '</replace>
       <replace>cleanParentDomList</replace>
+      <replace>const</replace>
+      <replace>appendChild</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\PROJECTS\FrontCamp\fc_es6_p1.github.io\app</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -163,24 +136,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/main.js" />
-        <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/style/app.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/init.js" />
-        <option value="$PROJECT_DIR$/app/index.js" />
         <option value="$PROJECT_DIR$/app/helpers.js" />
+        <option value="$PROJECT_DIR$/app/src/newsApi.js" />
+        <option value="$PROJECT_DIR$/app/src/behavior.js" />
+        <option value="$PROJECT_DIR$/app/style/app.css" />
+        <option value="$PROJECT_DIR$/app/rqr.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/src/templateApi.js" />
+        <option value="$PROJECT_DIR$/app/index.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/dist/bundle.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.babelrc" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
-    <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -189,11 +171,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1866" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -213,58 +195,43 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc_es6_p1.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc_es6_p1.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc_es6_p1.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc_es6_p1.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc_es6_p1.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fc_es6_p1.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="fc_es6_p1.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fc_es6_p1.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fc_es6_p1.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fc_es6_p1.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fc_es6_p1.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fc_es6_p1.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.TypeScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/.bin/babel" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PROJECTS\FrontCamp\fc_es6_p1.github.io\app" />
+      <recent name="C:\PROJECTS\FrontCamp\fc_es6_p1.github.io\app\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -279,6 +246,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -316,15 +291,6 @@
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -345,9 +311,73 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration name="brs-dist" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="brs-dist" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="brs-one" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="brs-one" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="build-dist" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-dist" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="build-one" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-one" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="npm.build-dist" />
+      <item index="1" class="java.lang.String" itemvalue="npm.brs-dist" />
+      <item index="2" class="java.lang.String" itemvalue="npm.build-one" />
+      <item index="3" class="java.lang.String" itemvalue="npm.brs-one" />
+      <item index="4" class="java.lang.String" itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="npm.start" />
+        <item index="1" class="java.lang.String" itemvalue="npm.brs-dist" />
+        <item index="2" class="java.lang.String" itemvalue="npm.build-dist" />
+        <item index="3" class="java.lang.String" itemvalue="npm.brs-one" />
+        <item index="4" class="java.lang.String" itemvalue="npm.build-one" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -358,6 +388,8 @@
       <updated>1511643413249</updated>
       <workItem from="1511643414650" duration="12711000" />
       <workItem from="1511706125394" duration="17833000" />
+      <workItem from="1511973500980" duration="8493000" />
+      <workItem from="1512374112944" duration="16295000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1511731862198</created>
@@ -366,23 +398,77 @@
       <option name="project" value="LOCAL" />
       <updated>1511731862198</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[fix]">
+      <created>1511979282650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511979282650</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[fix] add async/await">
+      <created>1511979649595</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511979649595</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[fix] clean parent DOM">
+      <created>1511981617697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1511981617697</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[npm]: add npm start">
+      <created>1512028317971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512028317971</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[fc_es6_p2]: [in process] =&gt; add babel + plugins">
+      <created>1512375049760</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512375049760</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[fc_es6_p1]: [fix README] =&gt; Part 1">
+      <created>1512393462169</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512393462169</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30544000" />
+    <option name="totallyTimeSpent" value="55335000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-1928" y="32" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1071655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.502649" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44611186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.502649" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34429824" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07801792" sideWeight="0.50668895" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34429824" sideWeight="0.497351" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07801792" sideWeight="0.49331105" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32785088" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.497351" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -390,11 +476,851 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../news-services/server.js" />
+        <option value="$PROJECT_DIR$/../../news-services/app.js" />
+        <option value="$PROJECT_DIR$/../../news-services/app.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/server.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/Filters.js" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/Directives.js" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/Services.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/Filters.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/Directives.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/Controllers.js" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/Controllers.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/app.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/app.js" />
+        <option value="$PROJECT_DIR$/../../news-services/web/js/Services.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/LevenshteinTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/LevenshteinTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/performance/ExplicitTokenAnnotatorTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/performance/AnalyseTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/performance/RcsSuggestionTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/performance/AnalyseTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/performance/RcsSuggestionTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/performance/ExplicitTokenAnnotatorTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/performance/TokenSelectorTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/performance/TokenSelectorTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/utils/Fixtures.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/utils/Fixtures.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/AnalyseAndMostReadTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/HeadlinesTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/ImageTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/TokensCategoryTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/RelatedHeadlinesTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SourcesResolutionTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/UserLanguagesServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/MostReadTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/HeadlinesTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/StoryTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/TokensChildrenTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/UserLanguagesServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/MostReadTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/MyNewsTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/RcsAnnotatorTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/ImageTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/RcsSuggestionTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/AnalyzerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SnapshotTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/RicTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SearchAnnotateTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SymbologyTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/RcsAnnotatorTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SuggestTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SearchAnnotateTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/RcsSuggestionTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/TokensCategoryTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/RelatedHeadlinesTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/MyNewsTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SnapshotTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SymbologyTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SuggestTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/TokensChildrenTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/PortfolioTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/PortfolioTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/StoryTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/AnalyzerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/AnalyseAndMostReadTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/RicTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/NewsFlagTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/SourcesResolutionTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/NewsFlagTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/storage/RedisRepositoryTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/storage/RedisRepositoryTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/storage/DapsRepositoryTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/storage/DapsRepositoryTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/fixtures/MultiQueriesFixtures.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/e2e/fixtures/MultiQueriesFixtures.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Configuration/ChainRicsConfigurationTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Configuration/EnvironmentConfigurationTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Configuration/EnvironmentConfigurationTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Configuration/ChainRicsConfigurationTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Migration/ComminglingQueryMigrationTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Migration/ComminglingQueryMigrationTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/StoryTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/LanguageTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/UserTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/ETagFactoryTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/ETagFactoryTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/MigrationTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/LanguageTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/StoryTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/ParamsTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/UserTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/ParamsTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Http/MigrationTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/SourcesResolution/SourcesResolutionTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/SourcesResolution/SourcesResolutionTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/MyNews/TransformToMyNews.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/MyNews/MyNewsServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/MyNews/MyNewsTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/MyNews/TransformToMyNews.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/MyNews/MyNewsServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/MyNews/MyNewsTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/AlertsServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/TrendingTopicsServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/TrendingTopicsServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/CategoriesServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/AbstractTopNewsPackageServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/HeadlinesServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/AbstractTopNewsPackageServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/HeadlinesServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/CategoriesServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/TopNews/AlertsServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ImageService/ImageServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ImageService/ImageServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/ContainerTestsSamples.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/ContainerTestsSamples.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/ContainerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/ContainerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/SnapshotTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/SnippetTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/SnippetTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/SnapshotParamsFactoryTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/DuplicatedHeadlinesTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/SoapBuilderTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/MetadataFactoryTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/SnapshotParamsFactoryTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/NewsFlagsTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/SoapBuilderTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/MostReadTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/MetadataTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/HeadlineFactoryTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/SnapshotTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/RelatedHeadlinesTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/HeadlineFactoryTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/MostReadTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/MetadataFactoryTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/NewsFlagsTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/RelatedHeadlinesTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/DuplicatedHeadlinesTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Snapshot/MetadataTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Suggestion/SearchSuggestionTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Suggestion/StaticSuggestionTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Suggestion/StaticSuggestionTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Suggestion/RedisSuggestionTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Suggestion/SearchSuggestionTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Suggestion/RedisSuggestionTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/UnicodeHelperTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/UnicodeHelperTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/DateUtilsTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/StringUtilsTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/StringUtilsTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/CharsHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/MemoizeTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/AAASettingServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/CharsHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/UserLanguagesServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/AAASettingServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/MemoizeTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/PermissionsTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/DateUtilsTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/UserLanguagesServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Utils/PermissionsTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DapsRepository/DapsResponseHelpersTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DapsRepository/DapsResponseHelpersTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DapsRepository/DapsRepositoryTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DapsRepository/DapsRepositoryTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/MediaProxy/MediaProxyTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/MediaProxy/MediaProxyTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/HttpServices/SnapshotTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/HttpServices/SnapshotTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/HttpServices/NewsTopicTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/HttpServices/NewsTopicTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Nep/NepTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Nep/NepTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/NewsroomMigrationCacheManagerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/BpsaCacheManagerTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/BpsaCacheManagerTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/TimezoneCacheManagerTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/AbstractCacheManagerTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/AbstractCacheManagerTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/TimezoneCacheManagerTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/RcsCacheManagerTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/NewsroomMigrationCacheManagerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/RcsCacheManagerTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/StoryServiceTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/StoryServiceTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/StopWatchTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/DebugTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/StopWatchTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/DebugTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/Logger/InMemoryLoggerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/Logger/ChainLoggerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/Logger/ChainLoggerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/Logger/InMemoryLoggerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/Logger/FileLoggerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Debug/Logger/FileLoggerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/NewsRoom/NewsRoomStoryParserTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/NewsRoom/NewsRoomXmlStoryParserTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/NewsRoom/NewsRoomXmlStoryParserTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/NewsRoom/NewsRoomStoryParserTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Rcs/RcsHelperTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Rcs/RcsHelperTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Rcs/RelatedTopicsBuilderTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Rcs/RelatedTopicsBuilderTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Formatters/XmlFormatterTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Formatters/EmailFormatterTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Formatters/HtmlFormatterTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Formatters/PlainTextFormatterTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Formatters/EmailFormatterTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Formatters/PlainTextFormatterTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Formatters/XmlFormatterTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Formatters/HtmlFormatterTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfContentParserTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfStoryHelperTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfStoryHandlerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfStoryHandlerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfSandwichContentParserTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfStoryHelperTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfContactInfoTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfEikonConverterTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfContentParserTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfContactInfoTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfEikonConverterTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/RSF/RsfSandwichContentParserTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/MarkupHelperTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/HtmlSanitizerTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/LinkHelperTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/CssSanitizerTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/HtmlToTextConverterTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/CssSanitizerTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/LinkHelperTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/XmlDomHelperTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/RicHelperTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/UrlReplacementHelperTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/HtmlToTextConverterTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/UrlReplacementHelperTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/ExpressionHelperTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/MarkupHelperTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/RicHelperTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/HtmlSanitizerTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/ExpressionHelperTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Utils/XmlDomHelperTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/NewsWire/NewsWireStoryParserTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/NewsWire/NewsWireStoryParserTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Nep/NepStoryHelperTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Nep/NepStoryHelperTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Nep/NepStoryParserTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Nep/NepStoryParserTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Markup/EikonStoryHeadersTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Markup/EikonStoryHeadersTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Markup/PnacTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Markup/PnacTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/KeywordsParserTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/PlainTextParserTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/SandwichContentParserTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/PlainTextParserTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/BlockElementTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/TableParserTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/BlockElementTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/KeywordsParserTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/SandwichContentParserTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/Parser/TableParserTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/NewsRoom/StoryElements/NewsRoomStoryContentTest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/Story/NewsRoom/StoryElements/NewsRoomStoryContentTest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/FileManager/AbstractFileManagerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/FileManager/AbstractFileManagerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/FileManager/CuratedListFileManagerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/CacheManager/FileManager/CuratedListFileManagerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Compiler/MultiqueryCompilerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Compiler/SimpleCompilerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Compiler/CompilerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Compiler/MultiqueryCompilerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Compiler/CompilerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Compiler/NotCompilerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Compiler/NotCompilerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Compiler/SimpleCompilerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/RcsAnnotatorTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/SearchAnnotatorTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/RegexAnnotatorTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/RegexAnnotatorTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/BCastRefExplicitAnnotatorTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/ExplicitTokenAnnotatorTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/SearchAnnotatorTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/ExplicitTokenAnnotatorTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/RcsAnnotatorTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Annotator/BCastRefExplicitAnnotatorTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/TokenSelector/TokenSelectorTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/TokenSelector/TokenSelectorTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/UserLanguagesNormalizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/HardcodedQueryNormalizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/MetaTokensTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/DateRangeNormalizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/FreeTextNormalizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/UserLanguagesNormalizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/RealtimeCapabilityNormalizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/BCastRefTokenNormalizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/OperatorNormalizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/BCastRefNormalizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/DateRangeNormalizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/OperatorNormalizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/RealtimeCapabilityNormalizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/BCastRefNormalizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/MetaTokensTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/HardcodedQueryNormalizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/BCastRefTokenNormalizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Normalizer/FreeTextNormalizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/RcsTokenizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/SymbologyTokenizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/BCastRefTokenizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/PortfolioTokenizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/PortfolioTokenizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/IdsTokenizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/BCastRefTokenizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/BpsaTokenizerTests.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/IdsTokenizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/SymbologyTokenizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/RcsTokenizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/ExpressionAnalyzer/Tokenizer/BpsaTokenizerTests.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/autoloadFolder/services.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/autoloadFolder/services.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/autoloadFolder/subFolder/B.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/autoloadFolder/subFolder/B.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/autoloadFolder/exclude/C.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/unit/DependencyInjection/autoloadFolder/exclude/C.js" />
+        <option value="$PROJECT_DIR$/../../news-services/test/includes.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/test/includes.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/EnvironmentConfiguration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/TopicNavigationConfiguration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/TopicNavigationConfiguration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/EnvironmentConfiguration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/ChainRicsConfiguration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/ChainRicsConfiguration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Migration/ComminglingQueryMigration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Migration/ComminglingQueryMigration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/NewsFlag/NewsFlagService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/NewsFlag/NewsFlagsRepositoriesEnum.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/NewsFlag/NewsFlagsRepositoriesEnum.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/NewsFlag/NewsFlagService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/User.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/Params.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/Http.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/HttpAgent.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/ETagFactory.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/Params.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/Firewall.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/GunzipResponseTransformer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/LanguageFactory.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/LanguageFactory.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/TimezoneFactory.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/ResponseManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/ResponseListener.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/HttpAgent.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/User.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/IHttp.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/TimezoneFactory.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/Firewall.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/ResponseManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/IHttp.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/ETagFactory.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/ErrorListener.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/GunzipResponseTransformer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/ErrorListener.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/DebuggedHttp.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/DebuggedHttp.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/ResponseListener.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Http/Http.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/MyNews/MyNewsService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/MyNews/TransformToMyNews.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/MyNews/TransformToMyNews.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/MyNews/MyNewsService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/MostRead/MostReadService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/MostRead/MostReadService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/EnhancedHeadlines/EnhancedHeadlinesService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/EnhancedHeadlines/EnhancedHeadlinesService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/RelatedHeadlines/RelatedHeadlinesService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/RelatedHeadlines/RelatedHeadlinesService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/SearchSuggestion.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/RedisSuggestion.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/StaticSuggestion.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/ISuggestion.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/SearchSuggestion.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/ISuggestion.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/RedisSuggestion.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/ChainSuggestion.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/StaticSuggestion.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Suggestion/ChainSuggestion.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/MediaProxy/MediaProxy.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/MediaProxy/MediaProxy.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Kernel/ExtraRouter.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Kernel/ExtraRouter.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Kernel/Kernel.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Kernel/Kernel.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Kernel/Router.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Kernel/Router.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/StoryImageService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/StoryImageService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/StoryService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/StoryService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/IStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/StoryConstants.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Enums.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/StoryConstants.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/IStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Enums.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Debug.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Debug.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/DacsChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/BpsaChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/CacheChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/SnapshotChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/IdsChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/SearchChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/StoryChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/ChainHealthChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/SnapshotChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/SymbologyChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/IdsChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/RcsChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/DacsChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/DapsChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/BpsaChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/IHealth.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/PortfolioChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/ChainHealthChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/SearchChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/AbstractTimedChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/PortfolioChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/RcsChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/SymbologyChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/CacheChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/StoryChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/MachineChecker.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/DapsChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/MachineChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/IHealth.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Health/AbstractTimedChecker.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Error/Error.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Error/Error.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/api-docs/SwaggerDocProvider.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/api-docs/SwaggerDocProvider.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/HeadlinesService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/Model.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/TrendingTopicsService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/AbstractTopNewsPackageService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/HeadlinesService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/Model.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/CategoriesService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/CategoriesService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/AbstractTopNewsPackageService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/AlertsService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/TrendingTopicsService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/TopNews/AlertsService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/DuplicatedHeadlines/DuplicatedHeadlinesService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/DuplicatedHeadlines/DuplicatedHeadlinesService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/RcsCacheManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/ComminglingCacheManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/IndexManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/TimezoneCacheManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/RcsCacheManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/NewsroomMigrationCacheManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/AbstractCacheManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/ChainedCacheManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/IndexManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/ICacheManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/RcsIndexer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/BpsaCacheManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/AbstractCacheManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/RcsIndexer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/Bpsa.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/NewsroomMigrationCacheManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/ChainedCacheManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/ComminglingCacheManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/TimezoneCacheManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/BpsaCacheManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/Bpsa.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/ICacheManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Payload.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/SnippetsService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/SnapshotService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/MetadataService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/HeadlineFactory.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Payload.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/SnapshotParamsFactory.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/MetadataFactory.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/MetadataService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/HeadlineFactory.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/SnippetsService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Sentiments.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/SnapshotService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/SnapshotParamsFactory.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Sentiments.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/MetadataFactory.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Storage/IRepository.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Storage/RedisRepository.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Storage/DapsRepository.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Storage/DapsResponseHelpers.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Storage/RedisRepository.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Storage/DapsRepository.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Storage/IRepository.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Storage/DapsResponseHelpers.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Memoize.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/DependencyInjection.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Unicode.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/FeatureSwitch.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Notifier.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/FeatureSwitch.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/DateUtils.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/AAASettingService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/PermissionsService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Xml.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Notifier.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/AAASettingService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/DateUtils.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Extensions.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Xml.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/StringUtils.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Unicode.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/FileSystem.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/ServerProxies.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Metadata.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Levenshtein.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/SoapBuilder.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Extensions.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/ServerProxies.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/NepService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/SoapBuilder.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/DependencyInjection.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/FileSystem.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Memoize.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/CacheDaemon.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/StringUtils.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/NepService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Levenshtein.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/PermissionsService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/CacheDaemon.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Utils/Metadata.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Migration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Analyzer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Migration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Analyzer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/SourcesResolution.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/MyNews.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/SourcesResolution.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/NewsTopic.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/DuplicatedHeadlines.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Story.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/RelatedHeadlines.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Snapshot.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Permissions.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Tokens.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/MostRead.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Story.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Tokens.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/NewsTopic.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Snapshot.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Permissions.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/EnhancedHeadlines.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/MostRead.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/RelatedHeadlines.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/DuplicatedHeadlines.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/EnhancedHeadlines.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/MyNews.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Suggest.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Suggest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IAnalyzerResponse.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IMarkAsReadParams.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IServerResponse.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IHeadline.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IStoryParams.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IHeadlinesResponse.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/INewsflagResponse.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IHeadlinesResponse.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IServerResponse.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/ISnapshotParams.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IStoryUrn.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/FederatedRepositoriesEnum.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IAnalyzerResponse.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/ISnapshotParams.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/INepStoryResponse.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IStoryParams.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/ContentTypeEnum.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/SourceEnum.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/ContentTypeEnum.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IStoryResponse.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/FederatedRepositoriesEnum.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/INewsflagResponse.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/INepStoryResponse.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/Token.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IStoryResponse.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/Token.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IStoryUrn.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/SourceEnum.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IHeadline.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Model/IMarkAsReadParams.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/FileLogger.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/ConsoleLogger.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/AbstractLogger.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/Logger.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/ChainLogger.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/Logger.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/InMemoryLogger.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/InMemoryLogger.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/AbstractLogger.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/FileLogger.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/ChainLogger.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/Logger/ConsoleLogger.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/IStopWatch.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/Event.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/LightStopWatch.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/Event.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/AbstractStopWatch.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/IStopWatch.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/LightStopWatch.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/AbstractStopWatch.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/InMemoryStopWatch.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Debug/StopWatch/InMemoryStopWatch.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Translation/TranslationFtp.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Translation/TranslationFtp.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Translation/TranslationService.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Translation/TranslationService.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rcs/RcsHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rcs/RelatedTopicsBuilder.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rcs/RelatedTopicsBuilder.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rcs/RcsHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Formatters/XmlFormatter.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Formatters/PlainTextFormatter.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Formatters/EmailFormatter.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Formatters/HtmlFormatter.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Formatters/PlainTextFormatter.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Formatters/XmlFormatter.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Formatters/EmailFormatter.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Formatters/HtmlFormatter.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/NewsroomRsfStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfEikonConverter.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfSocialContent.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/ThirdPartyRsfStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/ThirdPartyRsfStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfSocialContent.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfContentParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfContentParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfContactInfo.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/LynxRsfStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfSandwichContentParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/NewsroomRsfStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/LynxRsfStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfStoryHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfEikonConverter.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfSandwichContentParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/IRsfStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfStoryHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/RsfContactInfo.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/IRsfStory.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/IRsfStory.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Rsf/IRsfStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsWire/NewsWireStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsWire/NewsWireStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/BlockElement.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/SandwichContentParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/BlockElement.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/SandwichContentParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/TableParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/PlainTextParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/KeywordParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/KeywordParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/PlainTextParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Parser/TableParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/NewsRoomStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/NewsRoomXmlStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/NewsRoomStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/NewsRoomXmlStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/RicHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/XmlDomHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/LinkHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/ExpressionHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/MarkupHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/LinkHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/HtmlToTextConverter.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/XmlDomHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/CssSanitizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/UrlReplacementHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/HtmlSanitizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/RicHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/UrlReplacementHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/ExpressionHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/CssSanitizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/HtmlSanitizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/MarkupHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Utils/HtmlToTextConverter.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Nep/NepStoryHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Nep/NepStoryParser.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Nep/NepFormatEnum.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Nep/NepStoryHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Nep/NepStoryParser.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Nep/NepFormatEnum.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Markup/EikonStoryHeaders.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Markup/EikonStoryHeaders.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Markup/Pnac.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Markup/Pnac.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Markup/EikonMarkupBuilder.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/Markup/EikonMarkupBuilder.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomLinkStoryElement.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomPreStoryElement.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomListStoryElement.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomListStoryElement.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/INewsRoomStoryElement.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomStoryContent.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomLinkStoryElement.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomStoryContent.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomPreStoryElement.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomPlainTextStoryElement.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomContainerElement.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomParagraphStoryElement.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/INewsRoomStoryElement.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomPlainTextStoryElement.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomTableStoryElement.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomTableStoryElement.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomParagraphStoryElement.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Story/NewsRoom/StoryElements/NewsRoomContainerElement.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/ChainEnricher.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/SourceNameEnricher.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/SnippetEnricher.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/SourceNameEnricher.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/SnippetEnricher.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/SourceMnemonicEnricher.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/ChainEnricher.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/IEnricher.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/SourceMnemonicEnricher.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/IEnricher.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/SentimentsEnricher.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Snapshot/Enricher/SentimentsEnricher.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/TimezoneFileManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/CommingledFileManagers.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/ChainFileManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/CuratedListFileManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/CommingledFileManagers.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/CuratedListFileManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/BpsaFileManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/BpsaFileManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/AbstractFileManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/TimezoneFileManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/RcsTrbc2012FileManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/RcsTrbc2012FileManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/IFileManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/AbstractFileManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/IFileManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/IndexManager/FileManager/ChainFileManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/DapsConfiguration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/DapsWritableConfiguration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/BackedupConfiguration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/ConfigurationHelper.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/RefreshingConfiguration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/IConfiguration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/DapsConfiguration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/IConfiguration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/RefreshingConfiguration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/DapsWritableConfiguration.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/BackedupConfiguration.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/Configuration/Utils/ConfigurationHelper.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/MultiqueryCompiler.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/SimpleCompiler.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/NotCompiler.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/NotCompiler.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/ConstituentsCompiler.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/Compiler.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/Compiler.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/SimpleCompiler.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/ConstituentsCompiler.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Compiler/MultiqueryCompiler.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/Context.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/News2000Analyzer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/AnalyzeCleaner.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/IAnnotator.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/News2000Analyzer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/MncLegacyAnalyzer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/ExplicitTokenAnnotator.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/IAnnotator.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/RegexAnnotator.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/Analyzer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/ExplicitTokenAnnotator.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/IAnalyzer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/RegexAnnotator.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/SearchAnnotator.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/Context.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/AnalyzeCleaner.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/RcsAnnotator.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/BCastRefExplicitAnnotator.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/RcsAnnotator.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/SearchAnnotator.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/Analyzer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/MncLegacyAnalyzer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/IAnalyzer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Annotator/BCastRefExplicitAnnotator.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/HardcodedQueryNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/RcsNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/BCastRefTokenNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/FreeTextNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/RealtimeCapabilityNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/MetaTokensNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/DateRangeNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/TokenSelector.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/BCastRefTokenNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/RealtimeCapabilityNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/BCastRefNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/DateRangeNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/HardcodedQueryNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/SymbologyNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/SymbologyNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/FreeTextNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/RcsNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/MetaTokensNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/OperatorNormalizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/OperatorNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/BCastRefNormalizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Normalizer/TokenSelector.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/SymbologyTokenizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/ITokenManager.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/BCastRefTokenizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/PortfolioTokenizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/SymbologyTokenizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/RcsTokenizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/ITokenManager.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/ITokenizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/ITokenizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/BCastRefTokenizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/PortfolioTokenizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/AbstractCacheTokenizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/IdsTokenizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/BpsaTokenizer.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/RcsTokenizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/IdsTokenizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/BpsaTokenizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/ExpressionAnalyzer/Tokenizer/AbstractCacheTokenizer.js.map" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Digest.js" />
+        <option value="$PROJECT_DIR$/../../news-services/src/HttpServices/Digest.js.map" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -433,7 +1359,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="[fix]" />
+    <MESSAGE value="[fix] add async/await" />
+    <MESSAGE value="[fix] clean parent DOM" />
+    <MESSAGE value="[npm]: add npm start" />
+    <MESSAGE value="[fc_es6_p2]: [in process] =&gt; add babel + plugins" />
+    <MESSAGE value="[fc_es6_p1]: [fix README] =&gt; Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fc_es6_p1]: [fix README] =&gt; Part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,35 +1382,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!block;n#apiKeyAttr#0;n#NewsApi#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/init.js" />
     <entry file="file://$PROJECT_DIR$/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#NewsApi#0" expanded="false" />
-            <element signature="n#!!block;n#apiKeyAttr#0;n#NewsApi#0" expanded="false" />
-            <element signature="e#9996#10492#0" expanded="false" />
-            <element signature="e#10551#11007#0" expanded="false" />
-            <element signature="n#!!block;n#addCategory#0;n#Templates#0" expanded="false" />
-            <element signature="n#!!block;n#addCheckbox#0;n#Templates#0" expanded="false" />
-            <element signature="n#!!block;n#getSelectorValue#0;n#Templates#0" expanded="false" />
-            <marker date="1511769720008" expanded="true" signature="9561:9630" ph="..." />
-            <marker date="1511769720008" expanded="true" signature="10073:10141" ph="..." />
-            <marker date="1511769720008" expanded="true" signature="10627:10695" ph="..." />
-            <marker date="1511769720008" expanded="true" signature="11644:11740" ph="..." />
-            <marker date="1511769720008" expanded="true" signature="11655:11711" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -486,11 +1395,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/app.css">
+    <entry file="file://$PROJECT_DIR$/app/style/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -502,7 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,45 +1425,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/babel">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/babel-cli/lib/_babel-node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="2" lean-forward="false" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.bin/babel" />
+    <entry file="file://$PROJECT_DIR$/node_modules/babel-cli/lib/_babel-node.js" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-665">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="2170" column="0" lean-forward="false" selection-start-line="2170" selection-start-column="0" selection-end-line="2170" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js" />
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,7 +1453,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/app.css">
+    <entry file="file://$PROJECT_DIR$/app/src/helpers.js" />
+    <entry file="file://$PROJECT_DIR$/app/style/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="18" />
@@ -576,62 +1462,253 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/app/src/init.js" />
+    <entry file="file://$PROJECT_DIR$/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="119">
+          <caret line="465" column="35" lean-forward="true" selection-start-line="465" selection-start-column="35" selection-end-line="465" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/init.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3101">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="391">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/init.js" />
+    <entry file="file://$PROJECT_DIR$/app/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/style/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.bin/babel" />
+    <entry file="file://$PROJECT_DIR$/node_modules/babel-cli/lib/_babel-node.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js" />
+    <entry file="file://$PROJECT_DIR$/app/src/helpers.js" />
+    <entry file="file://$PROJECT_DIR$/app/src/init.js" />
+    <entry file="file://$PROJECT_DIR$/app/src/dataStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/behavior.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/newsApi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="197" column="10" lean-forward="false" selection-start-line="197" selection-start-column="10" selection-end-line="197" selection-end-column="10" />
           <folding>
             <element signature="n#!!block;n#apiKeyAttr#0;n#NewsApi#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/rqr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/rqr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="445" column="45" lean-forward="true" selection-start-line="445" selection-start-column="45" selection-end-line="445" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#NewsApi#0" expanded="false" />
-            <element signature="n#!!block;n#apiKeyAttr#0;n#NewsApi#0" expanded="false" />
-            <element signature="e#9996#10492#0" expanded="false" />
-            <element signature="e#10551#11007#0" expanded="false" />
-            <element signature="n#!!block;n#addCategory#0;n#Templates#0" expanded="false" />
-            <element signature="n#!!block;n#addCheckbox#0;n#Templates#0" expanded="false" />
-            <element signature="n#!!block;n#getSelectorValue#0;n#Templates#0" expanded="false" />
-            <marker date="1511769720008" expanded="true" signature="9561:9630" ph="..." />
-            <marker date="1511769720008" expanded="true" signature="10073:10141" ph="..." />
-            <marker date="1511769720008" expanded="true" signature="10627:10695" ph="..." />
-            <marker date="1511769720008" expanded="true" signature="11644:11740" ph="..." />
-            <marker date="1511769720008" expanded="true" signature="11655:11711" ph="..." />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist-file/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/src/behavior.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
-            <element signature="e#751#1247#0" expanded="false" />
-            <element signature="e#1307#1763#0" expanded="false" />
-            <element signature="n#!!block;n#getSelectorValue#0;n#Templates#0;n#!!top" expanded="false" />
-            <marker date="1511769719989" expanded="true" signature="316:385" ph="..." />
-            <marker date="1511769719989" expanded="true" signature="828:896" ph="..." />
-            <marker date="1511769719989" expanded="true" signature="1383:1451" ph="..." />
-            <marker date="1511769719989" expanded="true" signature="2241:2277" ph="..." />
-            <marker date="1511769719989" expanded="true" signature="2253:2275" ph="..." />
+            <marker date="1512491830683" expanded="true" signature="20495:20556" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/templateApi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="97" column="52" lean-forward="false" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+          <folding>
+            <marker date="1512490317145" expanded="true" signature="343:412" ph="..." />
+            <marker date="1512490317145" expanded="true" signature="855:923" ph="..." />
+            <marker date="1512490317145" expanded="true" signature="1368:1436" ph="..." />
+            <marker date="1512490317145" expanded="true" signature="2389:2485" ph="..." />
+            <marker date="1512490317145" expanded="true" signature="2400:2456" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/style/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="(19||20)\d\d([- /.])(0[1-9]||1[012])\2(0[1-9]||[12][0-9]||3[01])" />
+        <entry key="text" value="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" />
+      </map>
+    </option>
   </component>
 </project>

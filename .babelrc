@@ -1,4 +1,10 @@
 {
-  "presets": ["env"],
-  "plugins": ["transform-runtime", "transform-es2015-modules-amd"]
+  "presets": [
+    ["es2015-ie"]
+  ],
+  "plugins": [
+    "syntax-async-functions",
+    "transform-regenerator",
+    "transform-runtime"
+  ]
 }

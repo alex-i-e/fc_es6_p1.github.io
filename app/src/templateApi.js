@@ -78,7 +78,7 @@ ${articleObject.title}</a>`;
 
         tempDom.onclick = onClickBtn;
 
-        parentElem.append(tempDom);
+        parentElem.appendChild(tempDom);
     }
 
 
@@ -90,7 +90,7 @@ ${articleObject.title}</a>`;
 
         catDom.onchange = onClickHandler;
 
-        parentElem.append(catDom);
+        parentElem.appendChild(catDom);
     }
 
     addCheckbox (parentElem, cbObject, onClickHandler) {
@@ -100,7 +100,7 @@ ${articleObject.title}</a>`;
 
         cbDom.onclick = onClickHandler;
 
-        parentElem.append(cbDom);
+        parentElem.appendChild(cbDom);
     }
 
     addArticle(parentElem, articleObject, onClickHandler) {
@@ -110,7 +110,7 @@ ${articleObject.title}</a>`;
 
         aDom.onclick = onClickHandler;
 
-        parentElem.append(aDom);
+        parentElem.appendChild(aDom);
     }
 
     cleanParentDomList (parentDom) {

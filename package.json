@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server",
-    "build": "./node_modules/.bin/babel app -d dist",
-    "build-one": "./node_modules/.bin/babel app --out-file dist-file/index.js",
-    "plugin": "./node_modules/.bin/babel app --out-file dist-file/index.js --plugins transform-runtime,transform-es2015-modules-amd "
+    "build-dist": "./node_modules/.bin/babel app -d dist",
+    "brs-dist": "browserify ./dist/index.js -o ./dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -26,14 +25,18 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
-    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "browserify": "^14.5.0"
   },
   "dependencies": {
     "babel": "^6.23.0",
     "babel-polyfill": "^6.26.0",
-    "babel-runtime": "^6.26.0"
+    "babel-runtime": "^6.26.0",
+    "whatwg-fetch": "^2.0.3"
   }
 }
