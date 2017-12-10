@@ -3,6 +3,7 @@
     ["es2015-ie"]
   ],
   "plugins": [
+    "./plugins/babel-plugin-clean-console",
     "syntax-async-functions",
     "transform-regenerator",
     "transform-runtime"
